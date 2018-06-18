@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > boom > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > sntp > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:29:25.636Z'
