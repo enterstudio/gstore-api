@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:tunnel-agent:20170305':
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > tunnel-agent:
+        patched: '2018-06-26T00:54:07.332Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > tunnel-agent:
+        patched: '2018-06-26T00:54:07.332Z'
