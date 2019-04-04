@@ -27,9 +27,9 @@
   "license": "ISC",
   "dependencies": {
     "arrify": "^1.0.1",
-    "body-parser": "1.17.1",
+    "body-parser": "1.18.2",
     "extend": "^3.0.0",
-    "gstore-node": "1.0.0",
+    "gstore-node": "2.0.0",
     "is": "^3.2.1",
     "pluralize": "^4.0.0",
     "string": "^3.3.3"
