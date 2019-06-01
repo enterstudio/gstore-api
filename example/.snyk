@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gstore-api > body-parser > debug:
+        patched: '2019-06-01T08:54:02.794Z'
+  'npm:hoek:20180212':
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > hawk > sntp > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-01T08:54:02.794Z'
+  'npm:ms:20170412':
+    - gstore-api > body-parser > debug > ms:
+        patched: '2019-06-01T08:54:02.794Z'
+  'npm:tunnel-agent:20170305':
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > retry-request > request > tunnel-agent:
+        patched: '2019-06-01T08:54:02.794Z'
+    - gstore-api > gstore-node > @google-cloud/datastore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > tunnel-agent:
+        patched: '2019-06-01T08:54:02.794Z'
