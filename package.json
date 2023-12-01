@@ -29,7 +29,7 @@
     "arrify": "^1.0.1",
     "body-parser": "1.17.1",
     "extend": "^3.0.0",
-    "gstore-node": "1.0.0",
+    "gstore-node": "2.1.1",
     "is": "^3.2.1",
     "pluralize": "^4.0.0",
     "string": "^3.3.3"
